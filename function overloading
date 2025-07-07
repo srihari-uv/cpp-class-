@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+int sum()
+   {
+    
+    int a,b,c;
+    cin >>a>>b;
+    c=a+b;
+    cout <<"sum of two var" <<c<<endl;
+    return 1;
+   }
+
+int sum (int a, int b){
+    int c =a+b;
+    cout<< "adding of two variables :"<< a<< endl;
+    return 1;
+}
+
+ int sum (float a , float b){
+    float c= a+b;
+    cout<< "adding float n int "<< c<< endl;
+    return 1;
+}
+
+ int sum ( int a,int b,int c){
+    int d =a+b+c;
+    cout << "sum of 3 variables is =" << d << endl;
+    return 1;
+}
+
+int main()
+{
+    
+sum (2,3,4);
+sum();
+sum(89,78);
+sum(2,3.5);
+    return 0;
+}#include <iostream>
+using namespace std;
+int sum()
+   {
+    
+    int a,b,c;
+    cin >>a>>b;
+    c=a+b;
+    cout <<"sum of two var" <<c<<endl;
+    return 1;
+   }
+
+int sum (int a, int b){
+    int c =a+b;
+    cout<< "adding of two variables :"<< a<< endl;
+    return 1;
+}
+
+ int sum (float a , float b){
+    float c= a+b;
+    cout<< "adding float n int "<< c<< endl;
+    return 1;
+}
+
+ int sum ( int a,int b,int c){
+    int d =a+b+c;
+    cout << "sum of 3 variables is =" << d << endl;
+    return 1;
+}
+
+int main()
+{
+    
+sum (2,3,4);
+sum();
+sum(89,78);
+sum(2,3.5);
+    return 0;
+}
