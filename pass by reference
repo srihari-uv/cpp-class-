@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void pass_by_ref (int &a) {
+    
+    cout << "value of a= " << a << endl;
+    a=30;
+    cout << "value of a after changing ="<<a<< endl;
+}
+
+int main (){
+    int a=100 ;
+    cout << "value of a in main fn = "<<a<< endl;
+    pass_by_ref(a);
+    cout << "value of a to check if its changed or not = "<< a;
+    return 0;
+}
