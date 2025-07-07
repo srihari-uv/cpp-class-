@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void pass_VALUE (int a) {
+    
+    cout <<"value of a = "<< a <<endl;
+    a=78;
+    cout << "value of a changed = " << a ; 
+}
+int main() {
+   
+   
+   int a= 100;
+   cout << "Enter the value of n :" <<endl;
+   cin >> a;
+   cout << "The output is :  "<< a ;
+
+    return 0;
+}
