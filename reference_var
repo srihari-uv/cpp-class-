@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a=20;
+    int &qty=a;
+    cout <<"a="<<a<<endl;
+    cout <<"qty="<<qty<<&qty<<endl;
+    qty=qty*2;
+    cout<<"a="<<a<<endl;
+    qty=qty*2;
+    cout<<"a="<<a<<endl;
+    cout<<"qty="<<qty<<endl;
+     cout<<&a;
+    return 0;
+}
+
+
